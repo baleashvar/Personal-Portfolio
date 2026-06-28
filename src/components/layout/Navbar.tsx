@@ -12,7 +12,6 @@ const NAV_LINKS = [
 ]
 
 export default function Navbar() {
-  const [menuOpen, setMenuOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const active = useScrollSpy(NAV_LINKS.map((l) => l.id))
 
