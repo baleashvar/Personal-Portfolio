@@ -37,8 +37,6 @@ export default function Navbar() {
         <button onClick={() => scrollTo('home')} style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--accent)', fontWeight: 700, fontSize: '1.125rem' }}>
           BK<span style={{ color: 'var(--text)' }}>.</span>
         </button>
-
-        {/* Desktop links */}
         <ul style={{ display: 'flex', gap: '32px', listStyle: 'none', margin: 0, padding: 0 }}>
           {NAV_LINKS.map((link) => (
             <li key={link.id}>
