@@ -41,7 +41,7 @@ export default function Contact() {
         'IU-PgqoHqYuYvSuLn'
       )
       .then(() => { setStatus('success'); formRef.current?.reset() })
-      .catch(() => setStatus('error'))
+      .catch((err) => { console.error('EmailJS error:', err); setStatus('error') })
   }
 
   return (

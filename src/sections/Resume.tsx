@@ -108,7 +108,12 @@ export default function Resume() {
                 <span style={{ color: 'var(--accent)' }}>📄</span> Publication
               </h3>
               <div style={{ padding: '20px', borderRadius: '10px', background: 'var(--surface)', border: '1px solid var(--border)' }}>
-                <h4 style={{ color: 'var(--text)', fontWeight: 600, fontSize: '0.95rem', marginBottom: '6px' }}>Gen AI Research — SRGAN</h4>
+                <h4 style={{ fontWeight: 600, fontSize: '0.95rem', marginBottom: '6px' }}>
+                  <a href="https://medium.com/@baleashomega/super-resolution-using-generative-adverserial-networks-95f57f0c0876" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text)', textDecoration: 'none' }}
+                    onMouseEnter={e => (e.currentTarget.style.color = 'var(--accent)')}
+                    onMouseLeave={e => (e.currentTarget.style.color = 'var(--text)')}
+                  >Gen AI Research — SRGAN ↗</a>
+                </h4>
                 <p style={{ color: 'var(--muted)', fontSize: '0.8rem', lineHeight: 1.6 }}>
                   Authored a paper on the use of Super Resolution Generative Adversarial Networks (SRGAN)
                   for planetary image improvisation (2020).

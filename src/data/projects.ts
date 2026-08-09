@@ -82,6 +82,7 @@ export const projectGroups: ProjectGroup[] = [
         description:
           'Research project on Super Resolution Generative Adversarial Networks (SRGAN) for planetary image improvisation. Published as a research paper (2020).',
         tags: ['Python', 'Deep Learning', 'GAN', 'Computer Vision', 'Research'],
+        live: 'https://medium.com/@baleashomega/super-resolution-using-generative-adverserial-networks-95f57f0c0876'
       },
       {
         title: 'Social Distancing Sensor',
