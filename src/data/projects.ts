@@ -33,6 +33,13 @@ export const projectGroups: ProjectGroup[] = [
     category: 'Web Development',
     projects: [
       {
+        title: 'JSONLab — AI Developer Tools',
+        description:
+          'A suite of AI-powered developer tools built for modern workflows. Includes JSON formatting, validation, diffing and AI utilities.',
+        tags: ['React', 'TypeScript', 'AI Tools', 'Developer Tools'],
+        live: 'https://jsonlab.xyz/ai-tools/',
+      },
+      {
         title: 'JSONLab — JSON Tools Suite',
         description:
           'A full-featured JSON tools suite for developers. Format, validate, diff, and transform JSON data with a clean modern interface.',

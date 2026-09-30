@@ -3,7 +3,7 @@ import { Download, Mail, ExternalLink } from 'lucide-react'
 import heroImg from '../assets/DP.jpeg'
 
 const ROLES = [
-  'DevOps Engineer',
+  'Cloud DevOps Engineer',
   'AWS Cloud Engineer',
   'Python Developer',
   'AWS Certified Practitioner',
@@ -62,7 +62,7 @@ export default function Hero() {
   const socialLinks = [
     { icon: GithubIcon, url: 'https://github.com/baleashvar', label: 'GitHub' },
     { icon: LinkedinIcon, url: 'https://linkedin.com/in/baleashvar', label: 'LinkedIn' },
-    { icon: ExternalLink, url: 'https://baleashvar.netlify.app', label: 'Old Portfolio' },
+    { icon: ExternalLink, url: 'https://baleashvar.vercel.app', label: 'Old Portfolio' },
   ]
 
   return (
@@ -82,7 +82,7 @@ export default function Hero() {
             <span style={{ color: 'var(--accent)' }}>{role}<span style={{ opacity: 1 }}>|</span></span>
           </div>
           <p style={{ color: 'var(--muted)', maxWidth: '480px', lineHeight: 1.7 }}>
-            Proactive AWS Cloud DevOps Engineer with 2.8+ years of experience building scalable
+            Proactive AWS Cloud DevOps Engineer with 3+ years of experience building scalable
             cloud enterprise applications and data pipelines in the aviation sector at British Airways.
           </p>
 
@@ -96,8 +96,8 @@ export default function Hero() {
               <Mail size={16} /> Hire Me
             </a>
             <a
-              href="/Baleashvar_Resume.docx"
-              download="Baleashvar_Resume.docx"
+              href="/Baleashvar_Resume.pdf"
+              download="Baleashvar_Resume.pdf"
               style={{ display: 'flex', alignItems: 'center', gap: '8px', padding: '10px 20px', borderRadius: '8px', border: '1px solid var(--border)', color: 'var(--text)', fontSize: '0.875rem', fontWeight: 500, textDecoration: 'none' }}
             >
               <Download size={16} /> Resume

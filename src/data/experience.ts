@@ -2,12 +2,13 @@ import type { Experience, Education } from '../types'
 
 export const experiences: Experience[] = [
   {
-    title: 'DevOps Engineer - 1',
+    title: 'Cloud DevOps Engineer',
     company: 'Tata Consultancy Services',
     client: 'British Airways',
     period: 'Sept 2023 – Present',
     points: [
-      'Vibe coded using Amazon Q to streamline daily engineering tasks and accelerate development workflows',
+      'Vibe coded using Amazon Q, Claude, and Gemini to streamline daily engineering tasks and accelerate development workflows',
+      'Built AI-assisted workflows using LangChain, LlamaIndex, and pgvector for vector search and RAG pipelines',
       'Monitored CloudWatch logs, ECS logs, EventBridge logs, Datadog logs and incidents in SNOW on a day-to-day basis',
       'Optimized cloud costs by redesigning Python data transformation scripts to run on AWS Lambda, reducing infrastructure costs by 20%',
       'Implemented CloudWatch log monitoring and alerting to proactively detect ingestion failures and latency spikes',
