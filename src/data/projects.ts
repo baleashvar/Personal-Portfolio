@@ -9,12 +9,7 @@ export const projectGroups: ProjectGroup[] = [
   {
     category: 'Professional — TCS / British Airways',
     projects: [
-      {
-        title: 'On-Prem to Cloud Migration',
-        description:
-          'Part of migrating 3 critical British Airways operational applications from on-prem to AWS cloud after 30 years of operation. Built data pipelines using ECS Fargate, Confluent Kafka, and IBM MQ.',
-        tags: ['AWS', 'ECS Fargate', 'Kafka', 'IBM MQ', 'Python', 'Docker'],
-      },
+
       {
         title: 'AWS Lambda Cost Optimization',
         description:

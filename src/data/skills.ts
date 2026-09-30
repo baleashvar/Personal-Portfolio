@@ -58,6 +58,8 @@ export const skillCategories: SkillCategory[] = [
       { name: 'Claude & Gemini', level: 80 },
     ],
   },
+  {
+    category: 'Security & Testing',
     skills: [
       { name: 'AWS IAM', level: 80 },
       { name: 'Akamai WAF', level: 65 },
