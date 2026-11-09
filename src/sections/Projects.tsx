@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { projectGroups } from '../data/projects'
 import type { Project } from '../types'
-import jsonlabImg from '../assets/jsonlab.JPG'
-import jsonlab1Img from '../assets/jsonlab1.JPG'
+import jsonlabImg from '../assets/jsonlab.jpg'
+import jsonlab1Img from '../assets/jsonlab1.jpg'
 
 const imageMap: Record<string, string> = {
   jsonlab: jsonlabImg,
