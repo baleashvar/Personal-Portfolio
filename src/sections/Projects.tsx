@@ -1,6 +1,13 @@
 import { useState } from 'react'
 import { projectGroups } from '../data/projects'
 import type { Project } from '../types'
+import jsonlabImg from '../assets/jsonlab.JPG'
+import jsonlab1Img from '../assets/jsonlab1.JPG'
+
+const imageMap: Record<string, string> = {
+  jsonlab: jsonlabImg,
+  jsonlab1: jsonlab1Img,
+}
 
 const ExternalIcon = () => (
   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -18,7 +25,13 @@ const GithubIcon = () => (
 
 function ProjectCard({ project }: { project: Project }) {
   return (
-    <div style={{ padding: '20px', borderRadius: '10px', background: 'var(--surface)', border: '1px solid var(--border)', display: 'flex', flexDirection: 'column', gap: '12px', height: '100%' }}>
+    <div style={{ padding: '0', borderRadius: '10px', background: 'var(--surface)', border: '1px solid var(--border)', display: 'flex', flexDirection: 'column', height: '100%', overflow: 'hidden' }}>
+      {project.image && imageMap[project.image] && (
+        <div style={{ width: '100%', height: '160px', overflow: 'hidden' }}>
+          <img src={imageMap[project.image]} alt={project.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+        </div>
+      )}
+      <div style={{ padding: '20px', display: 'flex', flexDirection: 'column', gap: '12px', flex: 1 }}>
       <h4 style={{ color: 'var(--text)', fontWeight: 600, fontSize: '0.95rem' }}>{project.title}</h4>
       <p style={{ color: 'var(--muted)', fontSize: '0.8rem', lineHeight: 1.6, flex: 1 }}>{project.description}</p>
 
@@ -48,6 +61,7 @@ function ProjectCard({ project }: { project: Project }) {
           )}
         </div>
       )}
+      </div>
     </div>
   )
 }

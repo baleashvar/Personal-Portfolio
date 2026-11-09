@@ -66,6 +66,7 @@ export default function Contact() {
 
             {[
               { label: 'Email', value: 'baleashvar@gmail.com', href: 'mailto:baleashvar@gmail.com' },
+              { label: 'LinkedIn', value: 'linkedin.com/in/baleashvar', href: 'https://linkedin.com/in/baleashvar' },
               { label: 'Location', value: 'Chennai, India', href: null },
             ].map(({ label, value, href }) => (
               <div key={label} style={{ display: 'flex', gap: '16px', alignItems: 'flex-start' }}>

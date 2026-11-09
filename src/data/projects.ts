@@ -7,6 +7,18 @@ export interface ProjectGroup {
 
 export const projectGroups: ProjectGroup[] = [
   {
+    category: 'AI & Open Source',
+    projects: [
+      {
+        title: 'semantic-cache-llm',
+        description:
+          'Open-source semantic caching layer for Large Language Models to detect redundant queries and eliminate unnecessary API round-trips. Implemented local embedding generation (all-MiniLM-L6-v2) and cosine similarity thresholds, reducing API inference latency and token consumption by up to 40%.',
+        tags: ['Python', 'LLM', 'FAISS', 'sentence-transformers', 'Open Source'],
+        github: 'https://github.com/baleashvar/semantic-cache-llm',
+      },
+    ],
+  },
+  {
     category: 'Professional — TCS / British Airways',
     projects: [
 
@@ -33,6 +45,7 @@ export const projectGroups: ProjectGroup[] = [
           'A suite of AI-powered developer tools built for modern workflows. Includes JSON formatting, validation, diffing and AI utilities.',
         tags: ['React', 'TypeScript', 'AI Tools', 'Developer Tools'],
         live: 'https://jsonlab.xyz/ai-tools/',
+        image: 'jsonlab1',
       },
       {
         title: 'JSONLab — JSON Tools Suite',
@@ -40,6 +53,7 @@ export const projectGroups: ProjectGroup[] = [
           'A full-featured JSON tools suite for developers. Format, validate, diff, and transform JSON data with a clean modern interface.',
         tags: ['React', 'TypeScript', 'JSON', 'Developer Tools'],
         live: 'https://jsonlab.xyz/',
+        image: 'jsonlab',
       },
       {
         title: 'Sollarity — Solana Memecoin Analysis',

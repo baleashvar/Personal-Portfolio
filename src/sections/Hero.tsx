@@ -3,7 +3,7 @@ import { Download, Mail, ExternalLink } from 'lucide-react'
 import heroImg from '../assets/DP.jpeg'
 
 const ROLES = [
-  'Cloud DevOps Engineer',
+  'Cloud DevOps & AI Engineer',
   'AWS Cloud Engineer',
   'Python Developer',
   'AWS Certified Practitioner',

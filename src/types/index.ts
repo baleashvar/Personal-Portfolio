@@ -35,6 +35,7 @@ export interface Project {
   tags: string[]
   github?: string
   live?: string
+  image?: string
 }
 
 export interface KnowMeCard {
